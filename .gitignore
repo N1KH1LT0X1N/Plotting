@@ -1,9 +1,77 @@
-kNN-imputation-and-MissForest.ipynb
-/Interactive Controls
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Data files (large CSVs)
+*.csv
+!requirements.txt
+!**/sample*.csv
+
+# Temporary files
 /tmp
-Annotated-Plots.ipynb
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Images (optional - remove if you want to include them)
+*.png
+*.jpg
+*.jpeg
+!docs/**/*.png
+!docs/**/*.jpg
+
+# Model files (optional)
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# Project-specific
+/backup
+/testing_yash
+Extract
+Extract-ML/
 Distribution.png
 black_hole_white_dots_v2.csv
 black_hole_white_dots.csv
-ps_demo.ipynb
-Extract
+
+# Keep specific notebooks if they're important
+# kNN-imputation-and-MissForest.ipynb
+# Annotated-Plots.ipynb
